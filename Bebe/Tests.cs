@@ -40,14 +40,16 @@ namespace Bebe
 			app.Tap("SALE");
 			app.Screenshot("Let's start by Tapping on the 'Sale' Button");
 			app.Tap("productImage");
-
+			app.Screenshot("Then we Tapped on the first item");
 
 			app.Tap("sizeTitle");
+			app.Screenshot("Next we Tapped on the 'Size' Button");
 			Thread.Sleep(4000);
 			app.Tap("item_product_attribute_container");
+			app.Screenshot("We Tapped on the first size");
 
 			app.Tap("bag_size");
-			app.Screenshot("We Tapped on the Shopping Cart");
+			app.Screenshot("Then we Tapped on the Shopping Cart");
 		}
 	}
 	

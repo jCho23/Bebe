@@ -1,0 +1,7 @@
+/Users/junecho/Projects/Bebe/Bebe/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/junecho/Projects/Bebe/Bebe/bin/Debug/Bebe.dll.mdb
+/Users/junecho/Projects/Bebe/Bebe/bin/Debug/Bebe.dll
+/Users/junecho/Projects/Bebe/Bebe/obj/Debug/Bebe.dll
+/Users/junecho/Projects/Bebe/Bebe/obj/Debug/Bebe.dll.mdb
+/Users/junecho/Projects/Bebe/Bebe/bin/Debug/nunit.framework.dll
+/Users/junecho/Projects/Bebe/Bebe/bin/Debug/Xamarin.UITest.dll

@@ -40,13 +40,16 @@ namespace Bebe
 			app.Tap("home_banner1");
 			app.Screenshot("Let's start by Tapping on the 'Sale' Button");
 			app.Tap("productImage");
-			app.Screenshot("Then we Tapped on the first item");
+			app.Screenshot("Then we Tapped on 'High Waist Parachute Pants'");
 
 			app.Tap("sizeTitle");
 			app.Screenshot("Next we Tapped on the 'Size' Button");
 			Thread.Sleep(4000);
 			app.Tap("item_product_attribute_container");
-			app.Screenshot("We Tapped on the first size");
+			app.Screenshot("We Tapped on the 'Size 4'");
+
+			app.Tap("addTitle");
+			app.Screenshot("Next we Added the item to our Cart");
 
 			app.Tap("bag_size");
 			app.Screenshot("Then we Tapped on the Shopping Cart");
@@ -65,6 +68,9 @@ namespace Bebe
 
 			app.PressEnter();
 			app.Screenshot("We Tapped on the 'Enter' Button");
+
+			app.DismissKeyboard();
+			app.Screenshot("Dismissed Keyboard");
 		}
 	}
 	

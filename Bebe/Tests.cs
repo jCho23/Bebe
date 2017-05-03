@@ -30,5 +30,10 @@ namespace Bebe
 		{
 			app.Repl();
 		}
-	}
+
+		[Test]
+		public void SaleTest()
+		{
+			
+		}
 }

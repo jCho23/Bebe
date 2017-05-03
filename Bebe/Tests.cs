@@ -4,6 +4,7 @@ using System.Linq;
 using NUnit.Framework;
 using Xamarin.UITest;
 using Xamarin.UITest.Queries;
+using System.Threading;
 
 namespace Bebe
 {
@@ -35,10 +36,14 @@ namespace Bebe
 		[Test]
 		public void SaleTest()
 		{
+			Thread.Sleep(4000);
 			app.Tap("SALE");
+			app.Screenshot("Let's start by Tapping on the 'Sale' Button");
 			app.Tap("productImage");
 
+
 			app.Tap("sizeTitle");
+			Thread.Sleep(4000);
 			app.Tap("item_product_attribute_container");
 
 			app.Tap("bag_size");

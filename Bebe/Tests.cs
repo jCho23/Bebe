@@ -36,8 +36,8 @@ namespace Bebe
 		[Test]
 		public void GuestCheckoutTest()
 		{
-			Thread.Sleep(4000);
-			app.Tap("SALE");
+			Thread.Sleep(8000);
+			app.Tap("home_banner1");
 			app.Screenshot("Let's start by Tapping on the 'Sale' Button");
 			app.Tap("productImage");
 			app.Screenshot("Then we Tapped on the first item");
@@ -52,8 +52,17 @@ namespace Bebe
 			app.Screenshot("Then we Tapped on the Shopping Cart");
 
 			app.ScrollDown();
-
+			app.Screenshot("Next we Scrolled Down to see more information");
+			Thread.Sleep(4000);
 			app.Tap(x => x.Css("#guestCheckout"));
+			app.Screenshot("We Tapped on the 'Guest Checkout' Button");
+
+			app.Tap(x => x.Css("#guestEmailAddress_entry"));
+
+			app.EnterText("MannyMashouf@bebe.com");
+
+			app.PressEnter();
+
 
 		}
 	}

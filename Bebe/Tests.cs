@@ -36,6 +36,14 @@ namespace Bebe
 		public void SaleTest()
 		{
 			app.Tap("SALE");
+			app.Tap("productImage");
+
+			app.Tap("sizeTitle");
+			app.Tap("item_product_attribute_container");
+
+			app.Tap("bag_size");
+			app.Screenshot("We Tapped on the Shopping Cart");
+
 
 		}
 }

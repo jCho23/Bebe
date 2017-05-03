@@ -23,6 +23,7 @@ namespace Bebe
 		public void BeforeEachTest()
 		{
 			app = AppInitializer.StartApp(platform);
+			app.Screenshot("App Launched");
 		}
 
 		[Test]
@@ -34,6 +35,7 @@ namespace Bebe
 		[Test]
 		public void SaleTest()
 		{
-			
+			app.Tap("SALE");
+
 		}
 }

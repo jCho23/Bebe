@@ -1,9 +1,24 @@
 ﻿<Properties StartupConfiguration="{C4A79E14-0BDD-4AAE-AD85-97D6561AA746}|Unit Tests">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Bebe/AppInitializer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Bebe/Tests.cs">
     <Files>
-      <File FileName="Bebe/Tests.cs" Line="31" Column="14" />
-      <File FileName="Bebe/AppInitializer.cs" Line="1" Column="1" />
+      <File FileName="Bebe/Tests.cs" Line="73" Column="41" />
+      <File FileName="Bebe/AppInitializer.cs" Line="28" Column="73" />
     </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Bebe" expanded="True">
+            <Node name="Bebe" expanded="True">
+              <Node name="Bebe" expanded="True">
+                <Node name="Tests" expanded="True">
+                  <Node name="Tests(Android)" expanded="True" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

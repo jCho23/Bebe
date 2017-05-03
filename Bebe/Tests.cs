@@ -34,7 +34,7 @@ namespace Bebe
 		}
 
 		[Test]
-		public void SaleTest()
+		public void GuestCheckoutTest()
 		{
 			Thread.Sleep(4000);
 			app.Tap("SALE");
@@ -50,6 +50,11 @@ namespace Bebe
 
 			app.Tap("bag_size");
 			app.Screenshot("Then we Tapped on the Shopping Cart");
+
+			app.ScrollDown();
+
+			app.Tap(x => x.Css("#guestCheckout"));
+
 		}
 	}
 	

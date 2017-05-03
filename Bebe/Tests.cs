@@ -43,7 +43,7 @@ namespace Bebe
 
 			app.Tap("bag_size");
 			app.Screenshot("We Tapped on the Shopping Cart");
-
-
 		}
+	}
+	
 }

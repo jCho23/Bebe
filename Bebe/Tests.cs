@@ -58,12 +58,13 @@ namespace Bebe
 			app.Screenshot("We Tapped on the 'Guest Checkout' Button");
 
 			app.Tap(x => x.Css("#guestEmailAddress_entry"));
+			app.Screenshot("Then we Tapped on the Email Text Field");
 
 			app.EnterText("MannyMashouf@bebe.com");
+			app.Screenshot("Then we entered our Email, 'MannyMashouf@bebe.com'");
 
 			app.PressEnter();
-
-
+			app.Screenshot("We Tapped on the 'Enter' Button");
 		}
 	}
 	
